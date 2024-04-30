@@ -1,0 +1,5 @@
+---
+title: "Python basic"
+---
+
+Ici nous allons revoir les bases du langage python 
