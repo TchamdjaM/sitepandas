@@ -27,4 +27,4 @@ Avec une communauté active et engagée d'utilisateurs et de contributeurs, pand
 
 En résumé, pandas est bien plus qu'une simple bibliothèque Python ; c'est un outil essentiel pour tout professionnel travaillant avec des données structurées. Que ce soit pour explorer, nettoyer, analyser ou visualiser des données, pandas offre une solution puissante et intuitive pour répondre aux besoins de l'analyse de données moderne.
 
-Mais avant de débuter en Pandas, Je vous propose de rédécouvrier avec moi certaines bases en Pyton : [Python](python.qmd)
+Mais avant de débuter en Pandas, Je vous propose de rédécouvrier avec moi certaines bases en : [Python](python.qmd)
