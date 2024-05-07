@@ -2,7 +2,7 @@
 title: "PANDAS"
 about:
   template: jolla
-  image: pandas.png
+  image: image/pandas.png
   links:
     - icon: twitter
       text: twitter
@@ -22,5 +22,3 @@ Bienvenue sur PandasCours, votre destination pour maîtriser Pandas, la biblioth
 Découvrez nos cours structurés, nos tutoriels pratiques
 
 Rejoignez-nous dès maintenant et explorez le monde de l'analyse de données avec Pandas!
-
----
