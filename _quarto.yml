@@ -7,7 +7,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: python.qmd
+        text: Python
+      - href: pandas.qmd
+        text: Pandas
+      - href: about.qmd
+        text: About
 
 format:
   html:
