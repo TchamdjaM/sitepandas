@@ -8,6 +8,7 @@ website:
     search: true
     contents:
       - section: "index.qmd"
+      
       - section: "PYTHON"
         contents:
           - python.qmd

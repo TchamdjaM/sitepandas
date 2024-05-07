@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "ABOUT"
 about:
   template: jolla
   image: image/pandas.png
@@ -12,7 +12,9 @@ about:
       href: https://github.com
 ---
 
-Finley Malloc est leS scientifique en chef des données chez Wengo Analytics. Apprenez-en davantage sur les pandas avec lui.
+Finley Malloc est les scientifiques en chef des données chez xxxx. 
+
+Apprenez-en davantage sur les pandas avec lui.
 
 
 ## MORE AND MORE

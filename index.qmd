@@ -1,5 +1,5 @@
 ---
-title: "PandasLab"
+title: "HOME"
 ---
 
 Découvrez la puissance de Pandas : une bibliothèque incontournable pour l'analyse de données en Python
