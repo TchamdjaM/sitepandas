@@ -4,3 +4,21 @@ title: "Python basic"
 
 Nous allons revoir les bases du langage python pour s'assurer que vous êtes bien apte à apprendre [Pandas](pandas.qmd).
 
+## 1. C’est quoi Python ?
+Python est un langage de programmation offrant une syntaxe simple, une  programmation orientée objet ainsi qu’une large collection de bibliothèques. 
+
+C'est un langage interprété et doté d’un typage dynamique fort.
+
+Python  effectue  des  vérifications  de  cohérence  sur  les  types  manipulés,  et 
+permet de transformer explicitement une variable d’un type à un autre.
+
+## 2. Quelques bonne pratiques
+
+-Ne pas utiliser d'accent, ni de signe de ponctuation ou @.
+-Les chiffres ne doivent pas être utilisés comme premier caractère.
+-(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de -variable, et non une expression.
+-Respecter la convention de nommage snake_case.
+-Privilégier l'écriture du code en anglais.
+
+
+Si vous cherchez à apprendre Pandas, c'est que vous connaissez déjà le langage *Python*. Alors sans plus tarder, commençons les exercices de remise à niveau.
