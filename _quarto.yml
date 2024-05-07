@@ -3,23 +3,33 @@ project:
 
 website:
   title: "PandasLab"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: python.qmd
-        text: Python
-      - href: pandas.qmd
-        text: Pandas
-      - href: about.qmd
-        text: About
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - section: "PYTHON"
+        contents:
+          - python.qmd
+          - basics-knitr.qmd
+          - exercice-py.qmd
+      - section: "PANDAS"
+        contents:
+          - pandas.qmd
+          - layout-knitr.qmd
+          - exercice-pan.qmd
+      - section: "DATA VIZ"
+        contents:
+          - visualisation.qmd
+          - layout-knitr.qmd
+          - exercice-viz.qmd
+
     cookie-consent:
       type: express
       style: headline
       palette: dark
-    theme:
-      light: flatly
-      dark: darkly
+theme:
+  light: flatly
+  dark: darkly
 
 
 format:
@@ -27,6 +37,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+
 
 
 
