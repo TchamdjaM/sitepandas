@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "PANDAS",
     "section": "",
-    "text": "Bienvenue sur PandasCours, votre destination pour maîtriser Pandas, la bibliothèque Python essentielle pour l’analyse de données.\nDécouvrez nos cours structurés, nos tutoriels pratiques\nRejoignez-nous dès maintenant et explorez le monde de l’analyse de données avec Pandas!"
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. Learn about Pandas with him."
   },
   {
     "objectID": "index.html",
@@ -19,5 +19,12 @@
     "title": "Python basic",
     "section": "",
     "text": "Ici nous allons revoir les bases du langage python pour s’assurer que vous êtes apte à apprendre Pandas"
+  },
+  {
+    "objectID": "about.html#more-and-more",
+    "href": "about.html#more-and-more",
+    "title": "PANDAS",
+    "section": "MORE AND MORE",
+    "text": "MORE AND MORE\nBienvenue sur PandasCours, votre destination pour maîtriser Pandas, la bibliothèque Python essentielle pour l’analyse de données.\nDécouvrez nos cours structurés, nos tutoriels pratiques\nRejoignez-nous dès maintenant et explorez le monde de l’analyse de données avec Pandas!"
   }
 ]

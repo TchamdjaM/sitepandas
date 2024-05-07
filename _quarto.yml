@@ -13,6 +13,14 @@ website:
         text: Pandas
       - href: about.qmd
         text: About
+    cookie-consent:
+      type: express
+      style: headline
+      palette: dark
+    theme:
+      light: flatly
+      dark: darkly
+
 
 format:
   html:
