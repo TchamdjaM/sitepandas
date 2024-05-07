@@ -1,3 +1,13 @@
 ---
 title: "Syntaxe - Variables"
 ---
+
+Commençons avec des exercices pour vous rappeler la syntaxe et les variables.
+
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width= "900"
+  height= "800"
+  src="exopy.html">
+</iframe>

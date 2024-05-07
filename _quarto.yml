@@ -13,19 +13,17 @@ website:
         contents:
           - python.qmd
           - py-syntaxe.qmd
-          - condition.qmd
-          - fonctions.qmd
-          - listes.qmd
+          # - conditions.qmd
+          # - fonctions.qmd
+          # - listes.qmd
       - section: "PANDAS"
         contents:
           - pandas.qmd
-          - layout-knitr.qmd
-          - exercice-pan.qmd
+          # - exercice-pan.qmd
       - section: "DATA VIZ"
         contents:
-          - visualisation.qmd
-          - layout-knitr.qmd
-          - exercice-viz.qmd
+          # - visualisation.qmd
+          # - exercice-viz.qmd
 
       - section: "about.qmd"
 

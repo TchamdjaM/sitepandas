@@ -15,9 +15,13 @@ permet de transformer explicitement une variable d’un type à un autre.
 ## 2. Quelques bonne pratiques
 
 -Ne pas utiliser d'accent, ni de signe de ponctuation ou @.
+
 -Les chiffres ne doivent pas être utilisés comme premier caractère.
--(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de -variable, et non une expression.
+
+-(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de variable et non une expression.
+
 -Respecter la convention de nommage snake_case.
+
 -Privilégier l'écriture du code en anglais.
 
 

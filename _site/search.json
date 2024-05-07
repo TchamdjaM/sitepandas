@@ -56,10 +56,46 @@
     "href": "python.html#quelques-bonne-pratiques",
     "title": "Python basic",
     "section": "2. Quelques bonne pratiques",
-    "text": "2. Quelques bonne pratiques\n-Ne pas utiliser d’accent, ni de signe de ponctuation ou @. -Les chiffres ne doivent pas être utilisés comme premier caractère. -(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de -variable, et non une expression. -Respecter la convention de nommage snake_case. -Privilégier l’écriture du code en anglais.\nSi vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage Python. Alors sans plus tarder, commençons les exercices de remise à niveau.",
+    "text": "2. Quelques bonne pratiques\n-Ne pas utiliser d’accent, ni de signe de ponctuation ou @.\n-Les chiffres ne doivent pas être utilisés comme premier caractère.\n-(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de variable et non une expression.\n-Respecter la convention de nommage snake_case.\n-Privilégier l’écriture du code en anglais.\nSi vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage Python. Alors sans plus tarder, commençons les exercices de remise à niveau.",
     "crumbs": [
       "PYTHON",
       "Python basic"
     ]
+  },
+  {
+    "objectID": "py-syntaxe.html",
+    "href": "py-syntaxe.html",
+    "title": "Syntaxe - Variables",
+    "section": "",
+    "text": "Commençons avec des exercices pour vous rappeler la syntaxe et les variables."
+  },
+  {
+    "objectID": "py-syntaxe.html#exercise-sur-les-calculs",
+    "href": "py-syntaxe.html#exercise-sur-les-calculs",
+    "title": "Syntaxe - Variables",
+    "section": "Exercise sur les calculs",
+    "text": "Exercise sur les calculs\n\n  &lt;code data-type=\"pre-exercise-code\"&gt;# no pec&lt;/code&gt;\n  &lt;code data-type=\"sample-code\"&gt;\n    # Calculate 3 + 4\n    3 + 4\n\n    # Calculate 6 + 12\n  &lt;/code&gt;\n  &lt;code data-type=\"solution\"&gt;\n    # Calculate 3 + 4\n    3 + 4\n\n    # Calculate 6 + 12\n    6 + 12&lt;/code&gt;\n  &lt;code data-type=\"sct\"&gt;\n    test_output_contains(&quot;18&quot;, incorrect_msg = &quot;Make sure to add `6 + 12`\n    on\n    a new line. Do not start the line with a `#`, otherwise your R code is not executed!&quot;)\n    success_msg(&quot;Awesome! See how the console shows the result of the R code you\n    submitted? Now that you&#39;re familiar with the interface, let&#39;s get down to R\n    business!&quot;)\n  &lt;/code&gt;\n  &lt;div data-type=\"hint\"&gt;\n    &lt;p&gt;Just add a line of R code that calculates the sum of 6 and 12, just like the\n      example\n      in the sample code!&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;",
+    "crumbs": [
+      "PYTHON",
+      "Syntaxe - Variables"
+    ]
+  },
+  {
+    "objectID": "py-syntaxe.html#exercice-sur-les-calculs",
+    "href": "py-syntaxe.html#exercice-sur-les-calculs",
+    "title": "Syntaxe - Variables",
+    "section": "Exercice sur les calculs",
+    "text": "Exercice sur les calculs\n\n  &lt;code data-type=\"pre-exercise-code\"&gt;# no pec&lt;/code&gt;\n  &lt;code data-type=\"sample-code\"&gt;\n    # Calculate 3 + 4\n    3 + 4\n\n    # Calculate 6 + 12\n  &lt;/code&gt;\n  &lt;code data-type=\"solution\"&gt;\n    # Calculate 3 + 4\n    3 + 4\n\n    # Calculate 6 + 12\n    6 + 12&lt;/code&gt;\n  &lt;code data-type=\"sct\"&gt;\n    test_output_contains(&quot;18&quot;, incorrect_msg = &quot;Make sure to add `6 + 12`\n    on\n    a new line. Do not start the line with a `#`, otherwise your R code is not executed!&quot;)\n    success_msg(&quot;Awesome! See how the console shows the result of the R code you\n    submitted? Now that you&#39;re familiar with the interface, let&#39;s get down to R\n    business!&quot;)\n  &lt;/code&gt;\n  &lt;div data-type=\"hint\"&gt;\n    &lt;p&gt;Just add a line of R code that calculates the sum of 6 and 12, just like the\n      example\n      in the sample code!&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;",
+    "crumbs": [
+      "PYTHON",
+      "Syntaxe - Variables"
+    ]
+  },
+  {
+    "objectID": "py-syntaxe.html#exercice-sur-les-variables",
+    "href": "py-syntaxe.html#exercice-sur-les-variables",
+    "title": "Syntaxe - Variables",
+    "section": "Exercice sur les variables",
+    "text": "Exercice sur les variables\n\n  &lt;code data-type=\"pre-exercise-code\"&gt;# no pec&lt;/code&gt;\n  &lt;code data-type=\"sample-code\"&gt;\n    Calculate 3 + 4\n    3 + 4\n\n    # Calculate 6 + 12\n  &lt;/code&gt;\n  &lt;code data-type=\"solution\"&gt;\n    Calculate 3 + 4\n    3 + 4\n\n    # Calculate 6 + 12\n    6 + 12&lt;/code&gt;\n\n  &lt;code data-type=\"sct\"&gt;\n    test_output_contains(&quot;18&quot;, incorrect_msg = &quot;Make sure to add `6 + 12`\n    on\n    a new line. Do not start the line with a `#`, otherwise your R code is not executed!&quot;)\n    success_msg(&quot;Awesome! See how the console shows the result of the R code you\n    submitted? Now that you&#39;re familiar with the interface, let&#39;s get down to R\n    business!&quot;)\n  &lt;/code&gt;\n\n  &lt;div data-type=\"hint\"&gt;\n    &lt;p&gt; juste faire 6+12 comme l'exemple &lt;/p&gt;\n  &lt;/div&gt;"
   }
 ]
