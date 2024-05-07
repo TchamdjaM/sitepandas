@@ -13,7 +13,9 @@ website:
         contents:
           - python.qmd
           - py-syntaxe.qmd
-          - exercice-py.qmd
+          - condition.qmd
+          - fonctions.qmd
+          - listes.qmd
       - section: "PANDAS"
         contents:
           - pandas.qmd
