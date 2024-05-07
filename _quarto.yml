@@ -7,6 +7,7 @@ website:
     style: "floating"
     search: true
     contents:
+      - section: "index.qmd"
       - section: "PYTHON"
         contents:
           - python.qmd
@@ -22,6 +23,7 @@ website:
           - visualisation.qmd
           - layout-knitr.qmd
           - exercice-viz.qmd
+      - section: "about.qmd"
 
     cookie-consent:
       type: express
