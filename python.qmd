@@ -2,4 +2,5 @@
 title: "Python basic"
 ---
 
-Ici nous allons revoir les bases du langage python pour s'assurer que vous êtes apte à apprendre [Pandas](pandas.qmd)
+Nous allons revoir les bases du langage python pour s'assurer que vous êtes bien apte à apprendre [Pandas](pandas.qmd).
+
