@@ -50,5 +50,16 @@
       "PYTHON",
       "Python basic"
     ]
+  },
+  {
+    "objectID": "python.html#quelques-bonne-pratiques",
+    "href": "python.html#quelques-bonne-pratiques",
+    "title": "Python basic",
+    "section": "2. Quelques bonne pratiques",
+    "text": "2. Quelques bonne pratiques\n-Ne pas utiliser d’accent, ni de signe de ponctuation ou @. -Les chiffres ne doivent pas être utilisés comme premier caractère. -(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de -variable, et non une expression. -Respecter la convention de nommage snake_case. -Privilégier l’écriture du code en anglais.\nSi vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage Python. Alors sans plus tarder, commençons les exercices de remise à niveau.",
+    "crumbs": [
+      "PYTHON",
+      "Python basic"
+    ]
   }
 ]

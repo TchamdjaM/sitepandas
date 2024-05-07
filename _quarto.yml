@@ -12,7 +12,7 @@ website:
       - section: "PYTHON"
         contents:
           - python.qmd
-          - basics-knitr.qmd
+          - py-syntaxe.qmd
           - exercice-py.qmd
       - section: "PANDAS"
         contents:
@@ -24,7 +24,7 @@ website:
           - visualisation.qmd
           - layout-knitr.qmd
           - exercice-viz.qmd
-          
+
       - section: "about.qmd"
 
     cookie-consent:
