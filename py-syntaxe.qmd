@@ -9,5 +9,5 @@ Commençons avec des exercices pour vous rappeler la syntaxe et les variables.
   title="Inline Frame Example"
   width= "900"
   height= "800"
-  src="exopy.html">
+  src="exercice/exopy.html">
 </iframe>

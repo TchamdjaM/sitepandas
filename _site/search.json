@@ -67,7 +67,11 @@
     "href": "py-syntaxe.html",
     "title": "Syntaxe - Variables",
     "section": "",
-    "text": "Commençons avec des exercices pour vous rappeler la syntaxe et les variables."
+    "text": "Commençons avec des exercices pour vous rappeler la syntaxe et les variables.",
+    "crumbs": [
+      "PYTHON",
+      "Syntaxe - Variables"
+    ]
   },
   {
     "objectID": "py-syntaxe.html#exercise-sur-les-calculs",
