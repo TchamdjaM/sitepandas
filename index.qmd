@@ -1,5 +1,5 @@
 ---
-title: "HOME"
+title: "Index"
 ---
 
 Découvrez la puissance de Pandas : une bibliothèque incontournable pour l'analyse de données en Python

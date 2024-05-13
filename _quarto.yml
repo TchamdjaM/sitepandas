@@ -7,7 +7,9 @@ website:
     style: "floating"
     search: true
     contents:
-      - section: "index.qmd"
+      - section: "HOME"
+        contents: 
+          - index.qmd
 
       - section: "PYTHON"
         contents:
@@ -19,13 +21,16 @@ website:
       - section: "PANDAS"
         contents:
           - pandas.qmd
-          # - exercice-pan.qmd
+          - exercice-pan.qmd
       - section: "DATA VIZ"
         contents:
-          # - visualisation.qmd
-          # - exercice-viz.qmd
+           - visualisation.qmd
+           - exercice-viz.qmd
+      
+      - section: "A PROPOS"
+        contents: 
+            - about.qmd
 
-      - section: "about.qmd"
 
     cookie-consent:
       type: express

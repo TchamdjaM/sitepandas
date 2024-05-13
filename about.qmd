@@ -12,7 +12,7 @@ about:
       href: https://github.com
 ---
 
-Finley Malloc est les scientifiques en chef des données chez xxxx. 
+Finley Malloc est un scientifique en chef des données chez xxxx. 
 
 Apprenez-en davantage sur les pandas avec lui.
 
