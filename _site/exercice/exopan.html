@@ -19,23 +19,25 @@
 <body>
   <div class="exercise">
     <div class="title">
-      <h2>Dans la cellule ci-dessous, créez un DataFrame "fruits" qui contient 30 bananes et 21 Pommes</h2>
+      <h2>Exercice 1</h2>
+      <p>Dans la cellule ci-dessous, créez un DataFrame "fruits" qui contient 30 bananes et 21 Pommes</p>
     </div>
     <div data-datacamp-exercise data-lang="python" data-height="auto">
         <code data-type="pre-exercise-code"># no pec</code>
         <code data-type="sample-code">
           import pandas 
-          fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])
+          fruits = 
         </code>
         <code data-type="solution">
-          import pandas
+          import pandas 
           fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])
+          print(fruits)
         </code>
         <code data-type="sct">
-
-            test_output_contains("fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])",
-            incorrect_msg="Make sure to add fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas']).", error_msg="An error occurred. Please check your code and try again.")
-            success_msg("Félicitations! Vous avez créé le DataFrame 'fruits'. Continuez!")
+          test_import("pandas")
+          test_object("fruits")
+          test_function("pandas.DataFrame")
+          success_msg("Félicitations! Vous avez créé le DataFrame 'fruits'!")
         </code>
         <div data-type="hint">
             <p>fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])</p>
@@ -46,7 +48,7 @@
 
   <div class="exercise">
     <div class="title">
-      <h2> Exercice 2 </h2><p>Create a variable ingredients with a Series that looks like:
+      <h2> Exercice 2 </h2><p>Créez des ingrédients variables avec une série qui ressemble à :
 
         Flour     4 cups
         Milk       1 cup
@@ -57,23 +59,71 @@
     <div data-datacamp-exercise data-lang="python" data-height="auto">
         <code data-type="pre-exercise-code"># no pec</code>
         <code data-type="sample-code">
-            import pandas as pd
+            import pandas
+            quantities = 
+            items = 
+            recipe = 
         </code>
         <code data-type="solution">
+            import pandas
             quantities = ['4 cups', '1 cup', '2 large', '1 can']
             items = ['Flour', 'Milk', 'Eggs', 'Spam']
-            recipe = pd.Series(quantities, index=items, name='Dinner')
-        
+            recipe = pandas.Series(quantities, index=items, name='Dinner')
+            print(recipe)
         </code>
         <code data-type="sct">
-            test_output_contains("
-            quantities = ['4 cups', '1 cup', '2 large', '1 can']
-items = ['Flour', 'Milk', 'Eggs', 'Spam']
-recipe = pd.Series(quantities, index=items, name='Dinner')", incorrect_msg="Make sure to add fruits = pd.DataFrame([[30, 21]], columns=['Apples', 'Bananas']).", error_msg="An error occurred. Please check your code and try again.")
-            success_msg("Félicitations! Vous avez créé le DataFrame 'ingredients'. Continuez!")
+          test_import("pandas")
+          test_object("quantities")
+          test_object("items")
+          test_object("recipe")
+          test_function("pandas.Series")
+          test_function("print")
+          test_output_contains("Flour")
+          test_output_contains("Milk")
+          test_output_contains("Eggs")
+          test_output_contains("Spam")
+          success_msg("Félicitations ! Votre série 'recipe' a été créée avec succès.")
         </code>
         <div data-type="hint">
             <p>nommez la série "Dinner"</p>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 3</h2> <p>Dans la cellule ci-dessous, créez un DataFrame 'df' à partir d'une liste de dictionnaires, puis effectuez quelques opérations avancées.
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+            import pandas as pd
+            data = [{'Name': 'Alice', 'Age': 30, 'Salary': 50000}, 
+                    {'Name': 'Bob', 'Age': 35, 'Salary': 60000},
+                    {'Name': 'Charlie', 'Age': 25, 'Salary': 45000}]
+            df = pd.DataFrame(data)
+        </code>
+        <code data-type="solution">
+            df['Salary'] = df['Salary'] * 1.1
+            df['Bonus'] = df['Salary'] * 0.1
+            print(df)
+        </code>
+        <code data-type="sct">
+            test_function("pd.DataFrame")
+            test_object("df")
+            test_function("print")
+            test_output_contains("Alice")
+            test_output_contains("Bob")
+            test_output_contains("Charlie")
+            test_output_contains("55000")
+            test_output_contains("66000")
+            test_output_contains("49500")
+            success_msg("Félicitations ! Vous avez effectué les opérations avec succès.")
+        </code>
+        <div data-type="hint">
+            <p>df['Salary'] = df['Salary'] * 1.1</p>
+            <p>df['Bonus'] = df['Salary'] * 0.1</p>
         </div>
     </div>
   </div>
