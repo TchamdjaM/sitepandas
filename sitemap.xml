@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://TchamdjaM.github.io/sitepandas/visualisation.html</loc>
-    <lastmod>2024-05-07T10:17:23.644Z</lastmod>
+    <lastmod>2024-05-14T10:57:06.756Z</lastmod>
   </url>
   <url>
-    <loc>https://TchamdjaM.github.io/sitepandas/pandas.html</loc>
-    <lastmod>2024-05-07T10:17:07.149Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TchamdjaM.github.io/sitepandas/exercice-viz.html</loc>
-    <lastmod>2024-05-07T10:26:31.340Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TchamdjaM.github.io/sitepandas/exercice-pan.html</loc>
-    <lastmod>2024-05-07T10:25:56.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TchamdjaM.github.io/sitepandas/about.html</loc>
-    <lastmod>2024-05-07T11:37:26.272Z</lastmod>
-  </url>
-  <url>
-    <loc>https://TchamdjaM.github.io/sitepandas/exercice-py.html</loc>
-    <lastmod>2024-05-07T10:27:31.823Z</lastmod>
+    <loc>https://TchamdjaM.github.io/sitepandas/py-syntaxe.html</loc>
+    <lastmod>2024-05-13T14:50:58.901Z</lastmod>
   </url>
   <url>
     <loc>https://TchamdjaM.github.io/sitepandas/index.html</loc>
-    <lastmod>2024-05-07T11:42:31.522Z</lastmod>
+    <lastmod>2024-05-14T10:18:40.013Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TchamdjaM.github.io/sitepandas/exercice-pan.html</loc>
+    <lastmod>2024-05-14T07:56:45.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TchamdjaM.github.io/sitepandas/about.html</loc>
+    <lastmod>2024-05-14T10:44:25.272Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TchamdjaM.github.io/sitepandas/exercice-viz.html</loc>
+    <lastmod>2024-05-14T09:10:20.229Z</lastmod>
+  </url>
+  <url>
+    <loc>https://TchamdjaM.github.io/sitepandas/pandas.html</loc>
+    <lastmod>2024-05-14T10:48:48.492Z</lastmod>
   </url>
   <url>
     <loc>https://TchamdjaM.github.io/sitepandas/python.html</loc>
-    <lastmod>2024-05-07T11:57:16.178Z</lastmod>
+    <lastmod>2024-05-14T10:49:27.338Z</lastmod>
   </url>
 </urlset>

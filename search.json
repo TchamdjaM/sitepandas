@@ -1,43 +1,101 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "ABOUT",
+    "objectID": "visualisation.html",
+    "href": "visualisation.html",
+    "title": "Cours",
     "section": "",
-    "text": "Finley Malloc est les scientifiques en chef des données chez xxxx.\nApprenez-en davantage sur les pandas avec lui.",
+    "text": "Bienvenue à la visualisation de données !\nDans ce cours pratique, vous apprendrez à améliorer vos visualisations de données avec seaborn, un outil puissant mais facile à utiliser. Pour utiliser seaborn, vous apprendrez également quelques bases de la programmation en Python, un langage de programmation populaire. Cela dit,\nle cours est destiné à ceux qui n’ont aucune expérience préalable en programmation, et chaque graphique utilise un code court et simple, rendant seaborn beaucoup plus rapide et plus facile à utiliser que de nombreux autres outils de visualisation de données (comme Excel, par exemple).\nDonc, si vous n’avez jamais écrit une ligne de code et que vous voulez apprendre le strict minimum pour commencer à créer des graphiques plus rapidement et plus attrayants dès aujourd’hui, vous êtes au bon endroit ! Pour jeter un œil à certains des graphiques que vous réaliserez, consultez les figures ci-dessous.\n 📊Passons à la pratique",
     "crumbs": [
-      "ABOUT"
+      "DATA VIZ",
+      "Cours"
     ]
   },
   {
-    "objectID": "about.html#more-and-more",
-    "href": "about.html#more-and-more",
-    "title": "ABOUT",
-    "section": "MORE AND MORE",
-    "text": "MORE AND MORE\nBienvenue sur PandasCours, votre destination pour maîtriser Pandas, la bibliothèque Python essentielle pour l’analyse de données.\nDécouvrez nos cours structurés, nos tutoriels pratiques\nRejoignez-nous dès maintenant et explorez le monde de l’analyse de données avec Pandas!",
+    "objectID": "py-syntaxe.html",
+    "href": "py-syntaxe.html",
+    "title": "Exercices",
+    "section": "",
+    "text": "Commençons avec des exercices pour vous rappeler la syntaxe et les variables.",
     "crumbs": [
-      "ABOUT"
+      "PYTHON",
+      "Exercices"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "HOME",
+    "title": "Index",
     "section": "",
-    "text": "Découvrez la puissance de Pandas : une bibliothèque incontournable pour l’analyse de données en Python\nLe module pandas est une bibliothèque de programmation Python extrêmement populaire et largement utilisée dans le domaine de l’analyse de données. Conçue pour offrir des structures de données puissantes et flexibles, pandas simplifie le traitement des données structurées telles que les tableaux et les séries temporelles, permettant aux analystes et aux scientifiques des données de travailler de manière intuitive et efficace.\nPrincipaux aspects de Pandas :\n\nStructures de données flexibles : pandas offre deux principales structures de données : les DataFrame et les Series. Les DataFrame sont des structures tabulaires bidimensionnelles, similaires à des feuilles de calcul, où chaque colonne peut être de type différent. Les Series sont des structures unidimensionnelles similaires aux tableaux ou aux listes, mais avec des fonctionnalités supplémentaires.\nFonctionnalités puissantes pour le traitement des données : Lecture et écriture de données : Pandas prend en charge la lecture et l’écriture de données à partir de divers formats tels que CSV, Excel, SQL, et plus encore. Nettoyage des données : Il offre des outils puissants pour le nettoyage des données, y compris la gestion des valeurs manquantes, le filtrage, le tri et la fusion de données. Manipulation des données : Pandas permet de manipuler facilement les données en effectuant des opérations telles que le filtrage, le tri, le regroupement, et les opérations mathématiques sur les données. Analyse exploratoire des données (EDA) : Avec ses fonctions intégrées pour le calcul de statistiques descriptives et la visualisation de données, Pandas facilite l’exploration et l’analyse initiale des données.\nIntégration transparente avec d’autres bibliothèques Python : pandas s’intègre parfaitement avec d’autres bibliothèques populaires telles que NumPy, Matplotlib, Scikit-learn, et plus encore, offrant ainsi aux utilisateurs une suite complète d’outils pour l’analyse de données et le machine learning.\nCommunauté active et support continu : Avec une communauté active et engagée d’utilisateurs et de contributeurs, pandas bénéficie d’un support continu, ce qui en fait un choix fiable pour les projets d’analyse de données de toutes tailles.\n\nEn résumé, pandas est bien plus qu’une simple bibliothèque Python ; c’est un outil essentiel pour tout professionnel travaillant avec des données structurées. Que ce soit pour explorer, nettoyer, analyser ou visualiser des données, pandas offre une solution puissante et intuitive pour répondre aux besoins de l’analyse de données moderne.\nMais avant de débuter en Pandas, Je vous propose de rédécouvrir avec moi certaines bases en : Python",
+    "text": "Figure 1: Image de fullvector sur Freepik\n\n\n\n\nDécouvrez la puissance de Pandas : une bibliothèque incontournable pour l’analyse de données en Python\n\n\nLe module pandas est une bibliothèque de programmation Python extrêmement populaire et largement utilisée dans le domaine de l’analyse de données. Conçue pour offrir des structures de données puissantes et flexibles, pandas simplifie le traitement des données structurées telles que les tableaux et les séries temporelles, permettant aux analystes et aux scientifiques des données de travailler de manière intuitive et efficace.\nPrincipaux aspects de Pandas :\n\nStructures de données flexibles : pandas offre deux principales structures de données : les DataFrame et les Series. Les DataFrame sont des structures tabulaires bidimensionnelles, similaires à des feuilles de calcul, où chaque colonne peut être de type différent. Les Series sont des structures unidimensionnelles similaires aux tableaux ou aux listes, mais avec des fonctionnalités supplémentaires.\nFonctionnalités puissantes pour le traitement des données : Lecture et écriture de données : Pandas prend en charge la lecture et l’écriture de données à partir de divers formats tels que CSV, Excel, SQL, et plus encore. Nettoyage des données : Il offre des outils puissants pour le nettoyage des données, y compris la gestion des valeurs manquantes, le filtrage, le tri et la fusion de données. Manipulation des données : Pandas permet de manipuler facilement les données en effectuant des opérations telles que le filtrage, le tri, le regroupement, et les opérations mathématiques sur les données. Analyse exploratoire des données (EDA) : Avec ses fonctions intégrées pour le calcul de statistiques descriptives et la visualisation de données, Pandas facilite l’exploration et l’analyse initiale des données.\nIntégration transparente avec d’autres bibliothèques Python : pandas s’intègre parfaitement avec d’autres bibliothèques populaires telles que NumPy, Matplotlib, Scikit-learn, et plus encore, offrant ainsi aux utilisateurs une suite complète d’outils pour l’analyse de données et le machine learning.\nCommunauté active et support continu : Avec une communauté active et engagée d’utilisateurs et de contributeurs, pandas bénéficie d’un support continu, ce qui en fait un choix fiable pour les projets d’analyse de données de toutes tailles.\n\nEn résumé, pandas est bien plus qu’une simple bibliothèque Python ; c’est un outil essentiel pour tout professionnel travaillant avec des données structurées. Que ce soit pour explorer, nettoyer, analyser ou visualiser des données, pandas offre une solution puissante et intuitive pour répondre aux besoins de l’analyse de données moderne.\nMais avant de débuter en Pandas, Je vous propose de rédécouvrir avec moi certaines bases en : Python",
     "crumbs": [
-      "HOME"
+      "HOME",
+      "Index"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "ABOUT ME",
+    "section": "",
+    "text": "Hello moi c’est Mélissa. Apprenez-en davantage sur Python avec moi. Merci.",
+    "crumbs": [
+      "A PROPOS",
+      "ABOUT ME"
+    ]
+  },
+  {
+    "objectID": "about.html#more-and-more",
+    "href": "about.html#more-and-more",
+    "title": "ABOUT ME",
+    "section": "MORE AND MORE",
+    "text": "MORE AND MORE\nBienvenue sur PandasCours, votre destination pour maîtriser Pandas, la bibliothèque Python essentielle pour l’analyse de données.\nDécouvrez nos cours structurés, nos tutoriels pratiques\nRejoignez-nous dès maintenant et explorez le monde de l’analyse de données avec Pandas!",
+    "crumbs": [
+      "A PROPOS",
+      "ABOUT ME"
+    ]
+  },
+  {
+    "objectID": "pandas.html",
+    "href": "pandas.html",
+    "title": "Cours",
+    "section": "",
+    "text": "5.2 Pandas\nLe module pandas est une bibliothèque de programmation Python extrêmement populaire, utilisée principalement pour l’analyse de données. Elle fournit des structures de données puissantes et flexibles conçues pour travailler facilement avec des données structurées (comme les tableaux et les séries temporelles) de manière intuitive et efficace. Voici quelques aspects clés de pandas :\n\nStructures de données principales :\n\nDataFrame : une structure de données tabulaire avec des lignes et des colonnes étiquetées. C’est similaire à une feuille de calcul Excel ou à une table SQL.\nSeries : une colonne dans un DataFrame. C’est similaire à une liste en Python, mais avec des fonctionnalités supplémentaires offertes par pandas.\n\nManipulation de données :\n\nVous pouvez effectuer des opérations courantes de manipulation de données telles que le tri, le filtrage, la fusion, la jointure et la concaténation.\npandas est excellent pour gérer des données manquantes, remplacer des valeurs, grouper des données, etc.\n\nAnalyse de données :\n\nIl offre des outils pour l’exploration de données, comme le calcul de statistiques et la visualisation.\nVous pouvez facilement agir sur chaque colonne d’un DataFrame, par exemple pour appliquer des fonctions mathématiques ou de résumé statistique.\n\nInterfaçage avec d’autres formats de données :\n\npandas peut lire et écrire dans différents formats de fichiers comme CSV, Excel, JSON, HTML, SQL, etc.\n\nAvantages en termes de performance :\n\nBien que Python soit un langage interprété, pandas est construit sur des bibliothèques comme NumPy, ce qui lui permet d’être rapide et efficace.\n\nUtilisation dans divers domaines :\n\nIl est largement utilisé dans la finance, l’économie, la statistique, l’analyse de données, la science des données, et plus encore.\n\n\nPour commencer avec pandas, vous devez d’abord l’installer (si ce n’est pas déjà fait) en utilisant pip :\npip install pandas\nEt ensuite, vous pouvez l’importer dans votre script Python :\nimport pandas as pd\npd est un alias standard pour pandas, utilisé pour simplifier la référence à la bibliothèque dans le code.\n 📊Commençons les exercices",
+    "crumbs": [
+      "PANDAS",
+      "Cours"
     ]
   },
   {
     "objectID": "python.html",
     "href": "python.html",
-    "title": "Python basic",
+    "title": "Cours",
     "section": "",
     "text": "Nous allons revoir les bases du langage python pour s’assurer que vous êtes bien apte à apprendre Pandas.",
     "crumbs": [
       "PYTHON",
-      "Python basic"
+      "Cours"
+    ]
+  },
+  {
+    "objectID": "python.html#cest-quoi-python",
+    "href": "python.html#cest-quoi-python",
+    "title": "Cours",
+    "section": "1. C’est quoi Python ?",
+    "text": "1. C’est quoi Python ?\nPython est un langage de programmation offrant une syntaxe simple, une programmation orientée objet ainsi qu’une large collection de bibliothèques.\nC’est un langage interprété et doté d’un typage dynamique fort.\nPython effectue des vérifications de cohérence sur les types manipulés, et permet de transformer explicitement une variable d’un type à un autre.",
+    "crumbs": [
+      "PYTHON",
+      "Cours"
+    ]
+  },
+  {
+    "objectID": "python.html#quelques-bonne-pratiques",
+    "href": "python.html#quelques-bonne-pratiques",
+    "title": "Cours",
+    "section": "2. Quelques bonne pratiques",
+    "text": "2. Quelques bonne pratiques\n-Ne pas utiliser d’accent, ni de signe de ponctuation ou @.\n-Les chiffres ne doivent pas être utilisés comme premier caractère.\n-(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de variable et non une expression.\n-Respecter la convention de nommage snake_case.\n-Privilégier l’écriture du code en anglais.\npip install pandas\n\n\nSi vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage Python. Alors sans plus tarder, commençons les exercices de remise à niveau.\n 📊PASSONS AUX EXERCICES",
+    "crumbs": [
+      "PYTHON",
+      "Cours"
     ]
   }
 ]

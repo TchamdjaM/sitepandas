@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Data Visualization with Python</title>
+  <link rel='shortcut icon' type='image/x-icon' href='https://www.datacamp.com/assets/favicon.ico'/>
+  <style>
+    .exercise {
+      margin: 50px;
+    }
+
+    [data-datacamp-exercise] {
+        visibility: hidden;
+    }
+  </style>
+
+  <script async src="https://cdn.datacamp.com/dcl-react-dev.js.gz"></script>
+</head>
+<body>
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 1: Diagramme en barres</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+            import matplotlib.pyplot as plt
+            categories = ['A', 'B', 'C', 'D']
+            values = [3, 7, 2, 5]
+        </code>
+        <code data-type="solution">
+            plt.bar(categories, values)
+            plt.xlabel('Catégories')
+            plt.ylabel('Valeurs')
+            plt.title('Diagramme en barres')
+            plt.show()
+        </code>
+        <code data-type="sct">
+            test_function("plt.bar")
+            test_function("plt.xlabel")
+            test_function("plt.ylabel")
+            test_function("plt.title")
+            test_function("plt.show")
+            success_msg("Excellent ! Vous avez créé un diagramme en barres.")
+        </code>
+        <div data-type="hint">
+            <p>Utilisez plt.bar(categories, values) pour créer le diagramme en barres.</p>
+            <p>N'oubliez pas d'ajouter des étiquettes aux axes et un titre.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 2: Diagramme circulaire</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+            import matplotlib.pyplot as plt
+            labels = ['A', 'B', 'C', 'D']
+            sizes = [15, 30, 45, 10]
+        </code>
+        <code data-type="solution">
+            plt.pie(sizes, labels=labels, autopct='%1.1f%%')
+            plt.title('Diagramme circulaire')
+            plt.show()
+        </code>
+        <code data-type="sct">
+            test_function("plt.pie")
+            test_function("plt.title")
+            test_function("plt.show")
+            success_msg("Félicitations ! Vous avez créé un diagramme circulaire.")
+        </code>
+        <div data-type="hint">
+            <p>Utilisez plt.pie(sizes, labels=labels, autopct='%1.1f%%') pour créer le diagramme circulaire.</p>
+            <p>N'oubliez pas d'ajouter un titre.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 3: Diagramme en nuage de points</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+            import matplotlib.pyplot as plt
+            x = [1, 2, 3, 4, 5]
+            y = [5, 7, 9, 11, 13]
+        </code>
+        <code data-type="solution">
+            plt.scatter(x, y)
+            plt.xlabel('X')
+            plt.ylabel('Y')
+            plt.title('Diagramme en nuage de points')
+            plt.show()
+        </code>
+        <code data-type="sct">
+            test_function("plt.scatter")
+            test_function("plt.xlabel")
+            test_function("plt.ylabel")
+            test_function("plt.title")
+            test_function("plt.show")
+            success_msg("Bravo ! Vous avez créé un diagramme en nuage de points.")
+        </code>
+        <div data-type="hint">
+            <p>Utilisez plt.scatter(x, y) pour créer le diagramme en nuage de points.</p>
+            <p>N'oubliez pas d'ajouter des étiquettes aux axes et un titre.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 4: Histogramme</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+            import matplotlib.pyplot as plt
+            data = [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5]
+        </code>
+        <code data-type="solution">
+            plt.hist(data, bins=5)
+            plt.xlabel('Données')
+            plt.ylabel('Fréquence')
+            plt.title('Histogramme')
+            plt.show()
+        </code>
+        <code data-type="sct">
+            test_function("plt.hist")
+            test_function("plt.xlabel")
+            test_function("plt.ylabel")
+            test_function("plt.title")
+            test_function("plt.show")
+            success_msg("Fantastique ! Vous avez créé un histogramme.")
+        </code>
+        <div data-type="hint">
+            <p>Utilisez plt.hist(data, bins=5) pour créer l'histogramme avec 5 intervalles.</p>
+            <p>N'oubliez pas d'ajouter des étiquettes aux axes et un titre.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="exercise">
+    <div class="title">
+      <h2>Exercice 5: Diagramme à barres horizontales</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+            import matplotlib.pyplot as plt
+            categories = ['A', 'B', 'C', 'D']
+            values = [3, 7, 2, 5]
+        </code>
+        <code data-type="solution">
+            plt.barh(categories, values)
+            plt.xlabel('Valeurs')
+            plt.ylabel('Catégories')
+            plt.title('Diagramme à barres horizontales')
+            plt.show()
+        </code>
+        <code data-type="sct">
+            test_function("plt.barh")
+            test_function("plt.xlabel")
+            test_function("plt.ylabel")
+            test_function("plt.title")
+            test_function("plt.show")
+            success_msg("Magnifique ! Vous avez créé un diagramme à barres horizontales.")
+        </code>
+        <div data-type="hint">
+            <p>Utilisez plt.barh(categories, values) pour créer le diagramme à barres horizontales.</p>
+            <p>N'oubliez pas d'ajouter des étiquettes aux axes et un titre.</p>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
