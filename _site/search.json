@@ -4,7 +4,7 @@
     "href": "visualisation.html",
     "title": "Cours",
     "section": "",
-    "text": "Bienvenue à la visualisation de données !\nDans ce cours pratique, vous apprendrez à améliorer vos visualisations de données avec seaborn, un outil puissant mais facile à utiliser. Pour utiliser seaborn, vous apprendrez également quelques bases de la programmation en Python, un langage de programmation populaire. Cela dit,\nle cours est destiné à ceux qui n’ont aucune expérience préalable en programmation, et chaque graphique utilise un code court et simple, rendant seaborn beaucoup plus rapide et plus facile à utiliser que de nombreux autres outils de visualisation de données (comme Excel, par exemple).\nDonc, si vous n’avez jamais écrit une ligne de code et que vous voulez apprendre le strict minimum pour commencer à créer des graphiques plus rapidement et plus attrayants dès aujourd’hui, vous êtes au bon endroit ! Pour jeter un œil à certains des graphiques que vous réaliserez, consultez les figures ci-dessous.\nPassons à la pratique",
+    "text": "Bienvenue à la visualisation de données !\nDans ce cours pratique, vous apprendrez à améliorer vos visualisations de données avec seaborn, un outil puissant mais facile à utiliser. Pour utiliser seaborn, vous apprendrez également quelques bases de la programmation en Python, un langage de programmation populaire. Cela dit,\nle cours est destiné à ceux qui n’ont aucune expérience préalable en programmation, et chaque graphique utilise un code court et simple, rendant seaborn beaucoup plus rapide et plus facile à utiliser que de nombreux autres outils de visualisation de données (comme Excel, par exemple).\nDonc, si vous n’avez jamais écrit une ligne de code et que vous voulez apprendre le strict minimum pour commencer à créer des graphiques plus rapidement et plus attrayants dès aujourd’hui, vous êtes au bon endroit ! Pour jeter un œil à certains des graphiques que vous réaliserez, consultez les figures ci-dessous.\n 📊Passons à la pratique",
     "crumbs": [
       "DATA VIZ",
       "Cours"
@@ -48,7 +48,7 @@
     "href": "python.html#quelques-bonne-pratiques",
     "title": "Cours",
     "section": "2. Quelques bonne pratiques",
-    "text": "2. Quelques bonne pratiques\n-Ne pas utiliser d’accent, ni de signe de ponctuation ou @.\n-Les chiffres ne doivent pas être utilisés comme premier caractère.\n-(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de variable et non une expression.\n-Respecter la convention de nommage snake_case.\n-Privilégier l’écriture du code en anglais.\nSi vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage Python. Alors sans plus tarder, commençons les exercices de remise à niveau.\ncliquer ici:",
+    "text": "2. Quelques bonne pratiques\n-Ne pas utiliser d’accent, ni de signe de ponctuation ou @.\n-Les chiffres ne doivent pas être utilisés comme premier caractère.\n-(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de variable et non une expression.\n-Respecter la convention de nommage snake_case.\n-Privilégier l’écriture du code en anglais.\npip install pandas\n\n\nSi vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage Python. Alors sans plus tarder, commençons les exercices de remise à niveau.\n 📊PASSONS AUX EXERCICES",
     "crumbs": [
       "PYTHON",
       "Cours"
@@ -70,7 +70,7 @@
     "href": "pandas.html",
     "title": "Cours",
     "section": "",
-    "text": "Explorez le pouvoir de la Data Visualisation avec R et Python\n\n\n\n5.2 Pandas\nLe module pandas est une bibliothèque de programmation Python extrêmement populaire, utilisée principalement pour l’analyse de données. Elle fournit des structures de données puissantes et flexibles conçues pour travailler facilement avec des données structurées (comme les tableaux et les séries temporelles) de manière intuitive et efficace. Voici quelques aspects clés de pandas :\n\nStructures de données principales :\n\nDataFrame : une structure de données tabulaire avec des lignes et des colonnes étiquetées. C’est similaire à une feuille de calcul Excel ou à une table SQL.\nSeries : une colonne dans un DataFrame. C’est similaire à une liste en Python, mais avec des fonctionnalités supplémentaires offertes par pandas.\n\nManipulation de données :\n\nVous pouvez effectuer des opérations courantes de manipulation de données telles que le tri, le filtrage, la fusion, la jointure et la concaténation.\npandas est excellent pour gérer des données manquantes, remplacer des valeurs, grouper des données, etc.\n\nAnalyse de données :\n\nIl offre des outils pour l’exploration de données, comme le calcul de statistiques et la visualisation.\nVous pouvez facilement agir sur chaque colonne d’un DataFrame, par exemple pour appliquer des fonctions mathématiques ou de résumé statistique.\n\nInterfaçage avec d’autres formats de données :\n\npandas peut lire et écrire dans différents formats de fichiers comme CSV, Excel, JSON, HTML, SQL, etc.\n\nAvantages en termes de performance :\n\nBien que Python soit un langage interprété, pandas est construit sur des bibliothèques comme NumPy, ce qui lui permet d’être rapide et efficace.\n\nUtilisation dans divers domaines :\n\nIl est largement utilisé dans la finance, l’économie, la statistique, l’analyse de données, la science des données, et plus encore.\n\n\nPour commencer avec pandas, vous devez d’abord l’installer (si ce n’est pas déjà fait) en utilisant pip :\npip install pandas\nEt ensuite, vous pouvez l’importer dans votre script Python :\nimport pandas as pd\npd est un alias standard pour pandas, utilisé pour simplifier la référence à la bibliothèque dans le code. 📈 Commencer l’exploration avec R  📊 Commencer l’exploration avec Python",
+    "text": "5.2 Pandas\nLe module pandas est une bibliothèque de programmation Python extrêmement populaire, utilisée principalement pour l’analyse de données. Elle fournit des structures de données puissantes et flexibles conçues pour travailler facilement avec des données structurées (comme les tableaux et les séries temporelles) de manière intuitive et efficace. Voici quelques aspects clés de pandas :\n\nStructures de données principales :\n\nDataFrame : une structure de données tabulaire avec des lignes et des colonnes étiquetées. C’est similaire à une feuille de calcul Excel ou à une table SQL.\nSeries : une colonne dans un DataFrame. C’est similaire à une liste en Python, mais avec des fonctionnalités supplémentaires offertes par pandas.\n\nManipulation de données :\n\nVous pouvez effectuer des opérations courantes de manipulation de données telles que le tri, le filtrage, la fusion, la jointure et la concaténation.\npandas est excellent pour gérer des données manquantes, remplacer des valeurs, grouper des données, etc.\n\nAnalyse de données :\n\nIl offre des outils pour l’exploration de données, comme le calcul de statistiques et la visualisation.\nVous pouvez facilement agir sur chaque colonne d’un DataFrame, par exemple pour appliquer des fonctions mathématiques ou de résumé statistique.\n\nInterfaçage avec d’autres formats de données :\n\npandas peut lire et écrire dans différents formats de fichiers comme CSV, Excel, JSON, HTML, SQL, etc.\n\nAvantages en termes de performance :\n\nBien que Python soit un langage interprété, pandas est construit sur des bibliothèques comme NumPy, ce qui lui permet d’être rapide et efficace.\n\nUtilisation dans divers domaines :\n\nIl est largement utilisé dans la finance, l’économie, la statistique, l’analyse de données, la science des données, et plus encore.\n\n\nPour commencer avec pandas, vous devez d’abord l’installer (si ce n’est pas déjà fait) en utilisant pip :\npip install pandas\nEt ensuite, vous pouvez l’importer dans votre script Python :\nimport pandas as pd\npd est un alias standard pour pandas, utilisé pour simplifier la référence à la bibliothèque dans le code.\n 📊Commençons les exercices",
     "crumbs": [
       "PANDAS",
       "Cours"
@@ -79,23 +79,23 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "ABOUT",
+    "title": "ABOUT ME",
     "section": "",
     "text": "Hello moi c’est Mélissa. Apprenez-en davantage sur Python avec moi. Merci.",
     "crumbs": [
       "A PROPOS",
-      "ABOUT"
+      "ABOUT ME"
     ]
   },
   {
     "objectID": "about.html#more-and-more",
     "href": "about.html#more-and-more",
-    "title": "ABOUT",
+    "title": "ABOUT ME",
     "section": "MORE AND MORE",
     "text": "MORE AND MORE\nBienvenue sur PandasCours, votre destination pour maîtriser Pandas, la bibliothèque Python essentielle pour l’analyse de données.\nDécouvrez nos cours structurés, nos tutoriels pratiques\nRejoignez-nous dès maintenant et explorez le monde de l’analyse de données avec Pandas!",
     "crumbs": [
       "A PROPOS",
-      "ABOUT"
+      "ABOUT ME"
     ]
   }
 ]

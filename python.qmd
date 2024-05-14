@@ -25,10 +25,15 @@ permet de transformer explicitement une variable d’un type à un autre.
 -Privilégier l'écriture du code en anglais.
 
 
+```python
+pip install pandas
+
+
+
+```
+
+
 Si vous cherchez à apprendre Pandas, c'est que vous connaissez déjà le langage *Python*. Alors sans plus tarder, commençons les exercices de remise à niveau. 
 
-
-
-
-
-cliquer [ici](py-syntaxe.qmd):
+<br>
+<a href=py-syntaxe.qmd class="bouton">📊PASSONS AUX EXERCICES</a>

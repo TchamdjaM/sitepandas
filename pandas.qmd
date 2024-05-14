@@ -1,9 +1,6 @@
 ---
 title: "Cours"
 ---
-<div style="text-align: center;"><strong>Explorez le pouvoir de la Data Visualisation avec R et Python</strong></div>
-
-<br>
 
 ### 5.2 Pandas
 Le module `pandas` est une bibliothèque de programmation Python extrêmement populaire, utilisée principalement pour l'analyse de données. Elle fournit des structures de données puissantes et flexibles conçues pour travailler facilement avec des données structurées (comme les tableaux et les séries temporelles) de manière intuitive et efficace. Voici quelques aspects clés de `pandas` :
@@ -42,6 +39,6 @@ import pandas as pd
 ```
 
 `pd` est un alias standard pour `pandas`, utilisé pour simplifier la référence à la bibliothèque dans le code.
-<a href=datar.qmd class="bouton">📈 Commencer l'exploration avec R</a>
+
 <br>
-<a href=datap.qmd class="bouton">📊 Commencer l'exploration avec Python</a>
+<a href=exercice-pan.qmd class="bouton">📊Commençons les exercices</a>
