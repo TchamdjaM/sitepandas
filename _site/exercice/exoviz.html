@@ -30,6 +30,8 @@
         </code>
         <code data-type="solution">
             import matplotlib.pyplot as plt
+            categories = ['A', 'B', 'C', 'D']
+            values = [3, 7, 2, 5]
             plt.bar(categories, values)
             plt.xlabel('Catégories')
             plt.ylabel('Valeurs')
@@ -65,6 +67,8 @@
         </code>
         <code data-type="solution">
             import matplotlib.pyplot as plt
+            labels = ['A', 'B', 'C', 'D']
+            sizes = [15, 30, 45, 10]
             plt.pie(sizes, labels=labels, autopct='%1.1f%%')
             plt.title('Diagramme circulaire')
             plt.show()
@@ -96,6 +100,9 @@
         </code>
         <code data-type="solution">
             import matplotlib.pyplot as plt
+            x = [1, 2, 3, 4, 5]
+            y = [5, 7, 9, 11, 13]
+
             plt.scatter(x, y)
             plt.xlabel('X')
             plt.ylabel('Y')
@@ -130,6 +137,7 @@
         </code>
         <code data-type="solution">
             import matplotlib.pyplot as plt
+            data = [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5]
             plt.hist(data, bins=5)
             plt.xlabel('Données')
             plt.ylabel('Fréquence')
@@ -165,6 +173,9 @@
         </code>
         <code data-type="solution">
             import matplotlib.pyplot as plt
+            categories = ['A', 'B', 'C', 'D']
+            values = [3, 7, 2, 5]
+            
             plt.barh(categories, values)
             plt.xlabel('Valeurs')
             plt.ylabel('Catégories')

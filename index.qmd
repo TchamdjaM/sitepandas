@@ -9,7 +9,7 @@ title: "Index"
 
 :::
 
-<div style="text-align: center;"><strong>Découvrez la puissance de Pandas : une bibliothèque incontournable pour l'analyse de données en Python</strong></div>
+<div style="text-align: center;"><strong>Découvrez la puissance de Pandas : un incontournable pour l'analyse de données en Python</strong></div>
 <br>
 
 
