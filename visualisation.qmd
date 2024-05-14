@@ -11,4 +11,5 @@ chaque graphique utilise un code court et simple, rendant seaborn beaucoup plus 
 Donc, si vous n'avez jamais écrit une ligne de code et que vous voulez apprendre le strict minimum pour commencer à créer des graphiques plus rapidement et plus attrayants dès aujourd'hui, vous êtes au bon endroit!
 
 <br>
-<a href=py-syntaxe.qmd class="bouton">📊Passons à la pratique</a>
+
+<a href=py-syntaxe.qmd class="bouton">Passons à la pratique</a>
