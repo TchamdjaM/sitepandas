@@ -29,6 +29,7 @@
             values = [3, 7, 2, 5]
         </code>
         <code data-type="solution">
+            import matplotlib.pyplot as plt
             plt.bar(categories, values)
             plt.xlabel('Catégories')
             plt.ylabel('Valeurs')
@@ -36,6 +37,7 @@
             plt.show()
         </code>
         <code data-type="sct">
+            import matplotlib.pyplot as plt
             test_function("plt.bar")
             test_function("plt.xlabel")
             test_function("plt.ylabel")
@@ -62,11 +64,13 @@
             sizes = [15, 30, 45, 10]
         </code>
         <code data-type="solution">
+            import matplotlib.pyplot as plt
             plt.pie(sizes, labels=labels, autopct='%1.1f%%')
             plt.title('Diagramme circulaire')
             plt.show()
         </code>
         <code data-type="sct">
+            import matplotlib.pyplot as plt
             test_function("plt.pie")
             test_function("plt.title")
             test_function("plt.show")
@@ -91,6 +95,7 @@
             y = [5, 7, 9, 11, 13]
         </code>
         <code data-type="solution">
+            import matplotlib.pyplot as plt
             plt.scatter(x, y)
             plt.xlabel('X')
             plt.ylabel('Y')
@@ -98,6 +103,7 @@
             plt.show()
         </code>
         <code data-type="sct">
+            import matplotlib.pyplot as plt
             test_function("plt.scatter")
             test_function("plt.xlabel")
             test_function("plt.ylabel")
@@ -123,6 +129,7 @@
             data = [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5]
         </code>
         <code data-type="solution">
+            import matplotlib.pyplot as plt
             plt.hist(data, bins=5)
             plt.xlabel('Données')
             plt.ylabel('Fréquence')
@@ -130,6 +137,7 @@
             plt.show()
         </code>
         <code data-type="sct">
+            import matplotlib.pyplot as plt
             test_function("plt.hist")
             test_function("plt.xlabel")
             test_function("plt.ylabel")
@@ -156,6 +164,7 @@
             values = [3, 7, 2, 5]
         </code>
         <code data-type="solution">
+            import matplotlib.pyplot as plt
             plt.barh(categories, values)
             plt.xlabel('Valeurs')
             plt.ylabel('Catégories')
@@ -163,6 +172,7 @@
             plt.show()
         </code>
         <code data-type="sct">
+            import matplotlib.pyplot as plt
             test_function("plt.barh")
             test_function("plt.xlabel")
             test_function("plt.ylabel")
