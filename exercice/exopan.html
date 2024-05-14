@@ -26,17 +26,17 @@
         <code data-type="pre-exercise-code"># no pec</code>
         <code data-type="sample-code">
           import pandas 
-          fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])
+          fruits = 
         </code>
         <code data-type="solution">
           import pandas
           fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])
+          fruits
         </code>
         <code data-type="sct">
-
-            test_output_contains("fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])",
-            incorrect_msg="Make sure to add fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas']).", error_msg="An error occurred. Please check your code and try again.")
-            success_msg("Félicitations! Vous avez créé le DataFrame 'fruits'. Continuez!")
+          test_import("pandas")
+          test_object("fruits")
+          success_msg("Félicitations! Vous avez créé le DataFrame 'fruits'!")
         </code>
         <div data-type="hint">
             <p>fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])</p>
