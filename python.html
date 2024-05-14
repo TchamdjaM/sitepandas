@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PandasLab - Cours</title>
+<title>PandasLab - Cours Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,7 +114,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./python.html">PYTHON</a></li><li class="breadcrumb-item"><a href="./python.html">Cours</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./python.html">PYTHON</a></li><li class="breadcrumb-item"><a href="./python.html">Cours Python</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -168,7 +168,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./python.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Cours</span></a>
+ <span class="menu-text">Cours Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -191,7 +191,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./pandas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cours</span></a>
+ <span class="menu-text">Cours Pandas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -214,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./visualisation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cours</span></a>
+ <span class="menu-text">Cours Data Visualisation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -253,16 +253,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#cest-quoi-python" id="toc-cest-quoi-python" class="nav-link active" data-scroll-target="#cest-quoi-python">1. C’est quoi Python ?</a></li>
-  <li><a href="#quelques-bonne-pratiques" id="toc-quelques-bonne-pratiques" class="nav-link" data-scroll-target="#quelques-bonne-pratiques">2. Quelques bonne pratiques</a></li>
+  <li><a href="#quelques-bonnes-pratiques" id="toc-quelques-bonnes-pratiques" class="nav-link" data-scroll-target="#quelques-bonnes-pratiques">2. Quelques bonnes pratiques</a></li>
+  <li><a href="#variables-et-types-de-données" id="toc-variables-et-types-de-données" class="nav-link" data-scroll-target="#variables-et-types-de-données">3. Variables et types de données</a></li>
+  <li><a href="#structures-de-contrôle" id="toc-structures-de-contrôle" class="nav-link" data-scroll-target="#structures-de-contrôle">Structures de contrôle</a>
+  <ul class="collapse">
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">4. Conclusion</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./python.html">PYTHON</a></li><li class="breadcrumb-item"><a href="./python.html">Cours</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./python.html">PYTHON</a></li><li class="breadcrumb-item"><a href="./python.html">Cours Python</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Cours</h1>
+<h1 class="title">Cours Python</h1>
 </div>
 
 
@@ -286,20 +291,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>C’est un langage interprété et doté d’un typage dynamique fort.</p>
 <p>Python effectue des vérifications de cohérence sur les types manipulés, et permet de transformer explicitement une variable d’un type à un autre.</p>
 </section>
-<section id="quelques-bonne-pratiques" class="level2">
-<h2 class="anchored" data-anchor-id="quelques-bonne-pratiques">2. Quelques bonne pratiques</h2>
+<section id="quelques-bonnes-pratiques" class="level2">
+<h2 class="anchored" data-anchor-id="quelques-bonnes-pratiques">2. Quelques bonnes pratiques</h2>
 <p>-Ne pas utiliser d’accent, ni de signe de ponctuation ou @.</p>
 <p>-Les chiffres ne doivent pas être utilisés comme premier caractère.</p>
 <p>-(m+1=b) Ce qui se trouve à gauche du signe égal doit toujours être un nom de variable et non une expression.</p>
 <p>-Respecter la convention de nommage snake_case.</p>
 <p>-Privilégier l’écriture du code en anglais.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install pandas</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Si vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage <em>Python</em>. Alors sans plus tarder, commençons les exercices de remise à niveau.</p>
-<p><br> <a href="./py-syntaxe.html" class="bouton">📊PASSONS AUX EXERCICES</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install pandas</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="variables-et-types-de-données" class="level2">
+<h2 class="anchored" data-anchor-id="variables-et-types-de-données">3. Variables et types de données</h2>
+<p>En Python, vous pouvez stocker des valeurs dans des variables. Voici comment déclarer une variable et lui attribuer une valeur :</p>
+<p>Python prend en charge plusieurs types de données, notamment les entiers (int), les décimaux (float), les chaînes de caractères (str), les listes (list), les tuples (tuple), les ensembles (set) et les dictionnaires (dict).</p>
+</section>
+<section id="structures-de-contrôle" class="level1">
+<h1>Structures de contrôle</h1>
+<p>Python prend en charge les structures de contrôle telles que les boucles La boucle for est utilisée pour itérer sur une séquence (comme une liste ou une chaîne de caractères).</p>
+<p>La boucle while est utilisée pour exécuter un bloc de code tant qu’une condition est vraie.</p>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">4. Conclusion</h2>
+<p>Ceci conclut ce petit cours d’introduction à Python. Vous avez maintenant une idée générale de la syntaxe de base de Python, des variables. Si vous cherchez à apprendre Pandas, c’est que vous connaissez déjà le langage <em>Python</em>. Alors sans plus tarder, commençons les exercices de remise à niveau.</p>
+<p><br> <a href="./py-syntaxe.html" class="bouton">Passons aux exercices</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

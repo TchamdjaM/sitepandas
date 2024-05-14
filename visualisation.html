@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PandasLab - Cours</title>
+<title>PandasLab - Cours Data Visualisation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./visualisation.html">DATA VIZ</a></li><li class="breadcrumb-item"><a href="./visualisation.html">Cours</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./visualisation.html">DATA VIZ</a></li><li class="breadcrumb-item"><a href="./visualisation.html">Cours Data Visualisation</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./python.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cours</span></a>
+ <span class="menu-text">Cours Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./pandas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cours</span></a>
+ <span class="menu-text">Cours Pandas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -180,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./visualisation.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Cours</span></a>
+ <span class="menu-text">Cours Data Visualisation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -214,14 +214,28 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bienvenue-à-mon-cours-sur-la-visualisation-de-données" id="toc-bienvenue-à-mon-cours-sur-la-visualisation-de-données" class="nav-link active" data-scroll-target="#bienvenue-à-mon-cours-sur-la-visualisation-de-données">Bienvenue à mon cours sur la visualisation de données !</a>
+  <ul class="collapse">
+  <li><a href="#bibliothèques-de-visualisation-en-python" id="toc-bibliothèques-de-visualisation-en-python" class="nav-link" data-scroll-target="#bibliothèques-de-visualisation-en-python">1. Bibliothèques de Visualisation en Python</a></li>
+  </ul></li>
+  <li><a href="#matplotlib" id="toc-matplotlib" class="nav-link" data-scroll-target="#matplotlib">Matplotlib</a></li>
+  <li><a href="#seaborn" id="toc-seaborn" class="nav-link" data-scroll-target="#seaborn">Seaborn</a>
+  <ul class="collapse">
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">2. Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./visualisation.html">DATA VIZ</a></li><li class="breadcrumb-item"><a href="./visualisation.html">Cours</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./visualisation.html">DATA VIZ</a></li><li class="breadcrumb-item"><a href="./visualisation.html">Cours Data Visualisation</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Cours</h1>
+<h1 class="title">Cours Data Visualisation</h1>
 </div>
 
 
@@ -238,14 +252,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Bienvenue à la visualisation de données !</p>
+<section id="bienvenue-à-mon-cours-sur-la-visualisation-de-données" class="level1">
+<h1>Bienvenue à mon cours sur la visualisation de données !</h1>
 <p>Dans ce cours pratique, vous apprendrez à améliorer vos visualisations de données avec seaborn, un outil puissant mais facile à utiliser. Pour utiliser seaborn, vous apprendrez également quelques bases de la programmation en Python, un langage de programmation populaire. Cela dit,</p>
-<p>le cours est destiné à ceux qui n’ont aucune expérience préalable en programmation, et chaque graphique utilise un code court et simple, rendant seaborn beaucoup plus rapide et plus facile à utiliser que de nombreux autres outils de visualisation de données (comme Excel, par exemple).</p>
+<p>le cours est destiné à ceux qui n’ont aucune expérience préalable en programmation, et chaque graphique utilise un code court et simple, rendant seaborn beaucoup plus rapide et plus facile à utiliser que de nombreux autres outils de visualisation de données.</p>
 <p>Donc, si vous n’avez jamais écrit une ligne de code et que vous voulez apprendre le strict minimum pour commencer à créer des graphiques plus rapidement et plus attrayants dès aujourd’hui, vous êtes au bon endroit!</p>
-<p><br></p>
+<section id="bibliothèques-de-visualisation-en-python" class="level2">
+<h2 class="anchored" data-anchor-id="bibliothèques-de-visualisation-en-python">1. Bibliothèques de Visualisation en Python</h2>
+<p>En Python, plusieurs bibliothèques populaires sont utilisées pour la visualisation des données, notamment Matplotlib, Seaborn et Plotly.</p>
+</section>
+</section>
+<section id="matplotlib" class="level1">
+<h1>Matplotlib</h1>
+<p>Matplotlib est une bibliothèque de visualisation de données en Python, offrant une grande flexibilité pour créer une variété de graphiques tels que des graphiques linéaires, des histogrammes.</p>
+</section>
+<section id="seaborn" class="level1">
+<h1>Seaborn</h1>
+<p>Seaborn est une bibliothèque de visualisation de données basée sur Matplotlib, offrant une interface plus simple pour créer des graphiques statistiques attrayants.</p>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">2. Conclusion</h2>
+<p>La visualisation des données est un outil essentiel pour explorer, analyser et communiquer des informations à partir des données. <br></p>
 <p><a href="./py-syntaxe.html" class="bouton">Passons à la pratique</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
