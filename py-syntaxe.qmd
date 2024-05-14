@@ -1,7 +1,5 @@
 ---
 title: "Exercices"
-about:
-  image: image/ari.png
 ---
 
 Commençons avec des exercices pour vous rappeler la syntaxe et les variables.

@@ -5,7 +5,7 @@ title: "Exercices"
 <iframe
   id="inlineFrameExample"
   title="Inline Frame Example"
-  width= "1000"
-  height= "800"
+  width= "890"
+  height= "1000" 
   src="exercice/exopan.html">
 </iframe>

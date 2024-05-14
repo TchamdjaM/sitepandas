@@ -1,6 +1,10 @@
 project:
   type: website
 
+execute:
+  debug: true
+
+  
 website:
   title: "PandasLab"
   sidebar:
@@ -15,9 +19,6 @@ website:
         contents:
           - python.qmd
           - py-syntaxe.qmd
-          # - conditions.qmd
-          # - fonctions.qmd
-          # - listes.qmd
       - section: "PANDAS"
         contents:
           - pandas.qmd

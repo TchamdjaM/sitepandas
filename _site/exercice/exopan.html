@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>DataCamp Light | Standalone example</title>
+  <link rel='shortcut icon' type='image/x-icon' href='https://www.datacamp.com/assets/favicon.ico'/>
+  <style>
+    .exercise {
+      margin: 50px;
+    }
+
+    [data-datacamp-exercise] {
+        visibility: hidden;
+      }
+  </style>
+
+  <script async src="https://cdn.datacamp.com/dcl-react-dev.js.gz"></script>
+</head>
+<body>
+  <div class="exercise">
+    <div class="title">
+      <h2>Dans la cellule ci-dessous, créez un DataFrame "fruits" qui contient 30 bananes et 21 Pommes</h2>
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+          import pandas 
+          fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])
+        </code>
+        <code data-type="solution">
+          import pandas
+          fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])
+        </code>
+        <code data-type="sct">
+
+            test_output_contains("fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])",
+            incorrect_msg="Make sure to add fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas']).", error_msg="An error occurred. Please check your code and try again.")
+            success_msg("Félicitations! Vous avez créé le DataFrame 'fruits'. Continuez!")
+        </code>
+        <div data-type="hint">
+            <p>fruits = pandas.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])</p>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="exercise">
+    <div class="title">
+      <h2> Exercice 2 </h2><p>Create a variable ingredients with a Series that looks like:
+
+        Flour     4 cups
+        Milk       1 cup
+        Eggs     2 large
+        Spam       1 can
+        Name: Dinner, dtype: object</p>
+    </div>
+    <div data-datacamp-exercise data-lang="python" data-height="auto">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+            import pandas as pd
+        </code>
+        <code data-type="solution">
+            quantities = ['4 cups', '1 cup', '2 large', '1 can']
+            items = ['Flour', 'Milk', 'Eggs', 'Spam']
+            recipe = pd.Series(quantities, index=items, name='Dinner')
+        
+        </code>
+        <code data-type="sct">
+            test_output_contains("
+            quantities = ['4 cups', '1 cup', '2 large', '1 can']
+items = ['Flour', 'Milk', 'Eggs', 'Spam']
+recipe = pd.Series(quantities, index=items, name='Dinner')", incorrect_msg="Make sure to add fruits = pd.DataFrame([[30, 21]], columns=['Apples', 'Bananas']).", error_msg="An error occurred. Please check your code and try again.")
+            success_msg("Félicitations! Vous avez créé le DataFrame 'ingredients'. Continuez!")
+        </code>
+        <div data-type="hint">
+            <p>nommez la série "Dinner"</p>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
