@@ -31,12 +31,6 @@ website:
       - section: "A PROPOS"
         contents: 
             - about.qmd
-
-
-    cookie-consent:
-      type: express
-      style: headline
-      palette: dark
 theme:
   light: flatly
   dark: darkly

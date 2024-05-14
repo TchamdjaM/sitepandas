@@ -1,8 +1,18 @@
 ---
 title: "Index"
 ---
+::: {#fig-data_visualization}
 
-Découvrez la puissance de Pandas : une bibliothèque incontournable pour l'analyse de données en Python
+<img width="560" height="315" src="image/progra.jpg"></img>
+
+<a href="https://fr.freepik.com/vecteurs-libre/ordinateur-portable-icone-isometrique-code-programme-developpement-logiciels-applications-programmation-neon-sombre_4102879.htm#query=programmation&position=0&from_view=keyword&track=sph&uuid=2d3fb13e-9b7a-41de-b249-441a679ff320">Image de fullvector</a> sur Freepik
+
+:::
+
+<div style="text-align: center;"><strong>Découvrez la puissance de Pandas : une bibliothèque incontournable pour l'analyse de données en Python</strong></div>
+<br>
+
+
 
 Le module pandas est une bibliothèque de programmation Python extrêmement populaire et largement utilisée dans le domaine de l'analyse de données. Conçue pour offrir des structures de données puissantes et flexibles, pandas simplifie le traitement des données structurées telles que les tableaux et les séries temporelles, permettant aux analystes et aux scientifiques des données de travailler de manière intuitive et efficace.
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PandasLab</title>
+<title>PandasLab - Cours</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -80,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pandas.html">PANDAS</a></li><li class="breadcrumb-item"><a href="./pandas.html">pandas.html</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pandas.html">PANDAS</a></li><li class="breadcrumb-item"><a href="./pandas.html">Cours</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -157,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./pandas.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">pandas.html</span></a>
+ <span class="menu-text">Cours</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -214,51 +248,80 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pandas" id="toc-pandas" class="nav-link active" data-scroll-target="#pandas">5.2 Pandas</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div id="fig-data_visualization" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-data_visualization-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<p><img width="560" height="315" src="https://www.opendatasoft.com/wp-content/uploads/2022/08/Blog-thumbnail.png" class="figure-img"></p>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pandas.html">PANDAS</a></li><li class="breadcrumb-item"><a href="./pandas.html">Cours</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Cours</h1>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-data_visualization-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: <a href="https://fr.freepik.com/vecteurs-libre/ordinateur-portable-icone-isometrique-code-programme-developpement-logiciels-applications-programmation-neon-sombre_4102879.htm#query=programmation&amp;position=0&amp;from_view=keyword&amp;track=sph&amp;uuid=2d3fb13e-9b7a-41de-b249-441a679ff320">Image de fullvector</a> sur Freepik
-</figcaption>
-</figure>
-</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <div style="text-align: center;">
 <strong>Explorez le pouvoir de la Data Visualisation avec R et Python</strong>
 </div>
-<div style="text-align: center;">
-Saviez-vous que vos données ont des histoires à raconter ?
-</div>
-<div style="text-align: center;">
-Découvrez comment les visualiser avec R et Python!
-</div>
 <p><br></p>
-<p>Bienvenue sur DATAVIZ, le site dédié à la data visualisation avec R et Python. Ici, vous trouverez tout ce dont vous avez besoin pour transformer vos données brutes en visualisations informatives et percutantes. Que vous soyez novice ou utilisateur expérimenté, plongez dans le monde fascinant de la visualisation de données et découvrez comment R et Python peuvent vous aider à créer des graphiques qui captivent et informent.</p>
-<p>Ce que vous trouverez sur ce site :</p>
+<section id="pandas" class="level3">
+<h3 class="anchored" data-anchor-id="pandas">5.2 Pandas</h3>
+<p>Le module <code>pandas</code> est une bibliothèque de programmation Python extrêmement populaire, utilisée principalement pour l’analyse de données. Elle fournit des structures de données puissantes et flexibles conçues pour travailler facilement avec des données structurées (comme les tableaux et les séries temporelles) de manière intuitive et efficace. Voici quelques aspects clés de <code>pandas</code> :</p>
+<ol type="1">
+<li><strong>Structures de données principales</strong> :
 <ul>
-<li>
-Des tutoriels pas à pas pour apprendre les bases de la visualisation de données avec ces deux langages.
-</li>
-<li>
-Des astuces et des techniques avancées pour créer des graphiques interactifs et dynamiques.
-</li>
-<li>
-Des exemples pratiques et des exercices pour vous inspirer dans vos propres projets de visualisation de données.
-</li>
-</ul>
-<p>Prêt à commencer ? Explorez nos ressources dès maintenant et laissez vos données raconter leur histoire !</p>
-<p><a href="datar.qmd" class="bouton">📈 Commencer l’exploration avec R</a> <br> <a href="datap.qmd" class="bouton">📊 Commencer l’exploration avec Python</a></p>
+<li><strong>DataFrame</strong> : une structure de données tabulaire avec des lignes et des colonnes étiquetées. C’est similaire à une feuille de calcul Excel ou à une table SQL.</li>
+<li><strong>Series</strong> : une colonne dans un DataFrame. C’est similaire à une liste en Python, mais avec des fonctionnalités supplémentaires offertes par <code>pandas</code>.</li>
+</ul></li>
+<li><strong>Manipulation de données</strong> :
+<ul>
+<li>Vous pouvez effectuer des opérations courantes de manipulation de données telles que le tri, le filtrage, la fusion, la jointure et la concaténation.</li>
+<li><code>pandas</code> est excellent pour gérer des données manquantes, remplacer des valeurs, grouper des données, etc.</li>
+</ul></li>
+<li><strong>Analyse de données</strong> :
+<ul>
+<li>Il offre des outils pour l’exploration de données, comme le calcul de statistiques et la visualisation.</li>
+<li>Vous pouvez facilement agir sur chaque colonne d’un DataFrame, par exemple pour appliquer des fonctions mathématiques ou de résumé statistique.</li>
+</ul></li>
+<li><strong>Interfaçage avec d’autres formats de données</strong> :
+<ul>
+<li><code>pandas</code> peut lire et écrire dans différents formats de fichiers comme CSV, Excel, JSON, HTML, SQL, etc.</li>
+</ul></li>
+<li><strong>Avantages en termes de performance</strong> :
+<ul>
+<li>Bien que Python soit un langage interprété, <code>pandas</code> est construit sur des bibliothèques comme NumPy, ce qui lui permet d’être rapide et efficace.</li>
+</ul></li>
+<li><strong>Utilisation dans divers domaines</strong> :
+<ul>
+<li>Il est largement utilisé dans la finance, l’économie, la statistique, l’analyse de données, la science des données, et plus encore.</li>
+</ul></li>
+</ol>
+<p>Pour commencer avec <code>pandas</code>, vous devez d’abord l’installer (si ce n’est pas déjà fait) en utilisant pip :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install pandas</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Et ensuite, vous pouvez l’importer dans votre script Python :</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><code>pd</code> est un alias standard pour <code>pandas</code>, utilisé pour simplifier la référence à la bibliothèque dans le code. <a href="datar.qmd" class="bouton">📈 Commencer l’exploration avec R</a> <br> <a href="datap.qmd" class="bouton">📊 Commencer l’exploration avec Python</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
